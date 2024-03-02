@@ -10,7 +10,7 @@
 
 </style>
 </head>
-<body style="background-color:#f0f1f2;">
+<body style="background-color:#f0f2f2;">
 <%@include  file="navbar.jsp"%>
 <h1 class="text-center">Add trees</h1>
     <div class="container">
@@ -54,6 +54,9 @@
                                         id="inputState"
                                         <option select>Select</option>
                                         <option value="tree">Tree</option>
+                                        <option value="flower">Flower</option>
+                                        <option value="seedlings">Seedlings</option>
+                                        <option value="seeds">Seeds</option>
                                     </select>
 
                             </div>
@@ -75,9 +78,9 @@
                                         type="file"
                                         class="form-control-file"
                                         id="exampleFormControllerFile1"
-
                             </div>
-                            <button type="submit" value="submit" class"btn btn-primary">Add</button>
+
+                            <button type="submit" value="submit" class="btn btn-primary mt-3">Add</button>
 
 
                         </form>
