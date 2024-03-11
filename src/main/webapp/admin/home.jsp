@@ -79,8 +79,9 @@
 
 
 
-
-<%@include file="footer.jsp"%>
+ <div style="margin-top:100px">
+         <%@include file="footer.jsp"%>
+ </div>
 </body>
 
 </html>
